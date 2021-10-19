@@ -1,5 +1,4 @@
 name: Test Validation Action
-
 on:
   push:
     branches:
