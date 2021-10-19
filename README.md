@@ -19,6 +19,6 @@ return result.
 
 ## Example usage
 
-uses: actions/action-py3-selenium@v1
+uses: actions/action-py3-sf@v1
 with:
   run-script-python3: 'test/version.py'
