@@ -1,7 +1,7 @@
 ![](https://github.com/PapouMarc/action-py3-sf/actions/workflows/dockerimage.yml/badge.svg)
 
 
-# docker python3, faker and selenium action
+# docker python3, faker and selenium lib action
 
 you can run file python3 or ansible file with config chromium/Selenium
 
