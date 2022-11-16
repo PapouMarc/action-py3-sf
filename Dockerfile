@@ -1,4 +1,4 @@
-FROM papoumarc/ubuntu-focal-j11-pps:202108
+FROM papoumarc/ubuntu-jammy-j17-pp-selenium:latest
 
 RUN pip3 install faker
 
