@@ -13,7 +13,7 @@ you can run file python3 or ansible file with config chromium/Selenium
 
 ## Outputs
 
-### `result-python3`
+### `resultpython3`
 
 return result.
 
