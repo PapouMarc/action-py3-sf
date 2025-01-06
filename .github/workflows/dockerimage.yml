@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v4.2.2
     - name: run custom docker testLog
       id: testAction
       uses: ./
       with:
         run-script-python3: 'test/version.py'
     - name: Get the output result
-      run: echo "The result is ${{ steps.testAction.outputs.result-python3 }}"
+      run: echo "The result is ${{ steps.testAction.outputs.resultpython3 }}"

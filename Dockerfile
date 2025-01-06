@@ -1,4 +1,4 @@
-FROM papoumarc/ubuntu-jammy-j17-pp-selenium:latest
+FROM papoumarc/ubuntu-jammy:j17-pp-selenium
 
 RUN pip3 install faker
 
